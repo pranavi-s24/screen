@@ -1,0 +1,145 @@
+body {
+    font-family: Inter;
+}
+.nav {
+    font-family: poppins;
+}
+.logo {
+    width: 60%;
+}
+.font-size-50 {
+    font-size: 50px;
+}
+.p-point-seven {
+    padding: 0.7rem!important;
+}
+.h-200 {
+    height: 80px;
+}
+.w-120 {
+    width: 120px;
+}
+.h-half {
+    height: 0.5rem;
+}
+.rotate-90 {
+    transform: rotate(-90deg);
+}
+.blue-1 {
+    color: #319cea;
+}
+.blue-2 {
+    color: #4e96ca;
+}
+.blue-3 {
+    color: #7197b3;
+}
+.bg-green {
+    background-color: #3ed319;
+}
+.bg-blue {
+    background-color: #7fbde0;
+}
+.profile {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.profile + div {
+    right: 10% !important;
+}
+.img-icon {
+    box-sizing: border-box;
+    border: 0px solid;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.day:hover {
+    font-weight: bold;
+}
+.d-contents {
+    display: contents;
+}
+
+
+.box,.box-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box .percent, .box-1 .percent {
+    position: relative;
+}
+.box .percent svg,.box-1 .percent svg {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.box .percent svg circle,.box-1 .percent svg circle {
+    fill: none;
+    stroke-width: 5px;
+    stroke: #319cea;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+.box .percent svg circle:nth-child(1),.box-1 .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+}
+.box .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - ( 440 * 93 ) / 100);
+    stroke: #319cea;
+}
+.box-1 .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - ( 440 * 72 ) / 100);
+    stroke: #319cea;
+    stroke-linecap: round;
+}
+.box-1 .percent svg circle:nth-child(3) {
+    stroke-dashoffset: calc(440 - ( 440 * 36 ) / 100);
+    stroke: #f3f3f3;
+    stroke-linecap: round;
+}
+.box-1 .percent svg circle:nth-child(4) {
+    stroke-dashoffset: calc(440 - ( 440 * 35 ) / 100);
+    stroke: #819eb3;
+    stroke-linecap: round;
+}
+
+
+
+
+
+
+.box .percent .number,.box-1 .percent .number {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #319cea;
+}
+.box .percent .number h2 {
+    font-size: 40px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .profile + div {
+        left: 25%!important;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:700px) {
+    .profile + div {
+        left: 45%!important;
+    }
+}
