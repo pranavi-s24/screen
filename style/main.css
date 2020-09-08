@@ -111,12 +111,6 @@ body {
     stroke: #819eb3;
     stroke-linecap: round;
 }
-
-
-
-
-
-
 .box .percent .number,.box-1 .percent .number {
     position: absolute;
     top: 0;
@@ -129,17 +123,4 @@ body {
 }
 .box .percent .number h2 {
     font-size: 40px;
-}
-
-
-
-@media screen and (max-width:700px) {
-    .profile + div {
-        left: 25%!important;
-    }
-}
-@media screen and (max-width:1000px) and (min-width:700px) {
-    .profile + div {
-        left: 45%!important;
-    }
 }
