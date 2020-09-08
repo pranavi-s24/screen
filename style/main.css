@@ -48,9 +48,6 @@ body {
 .cursor-pointer {
     cursor: pointer;
 }
-.profile + div {
-    right: 10% !important;
-}
 .img-icon {
     box-sizing: border-box;
     border: 0px solid;
@@ -64,6 +61,14 @@ body {
 .d-contents {
     display: contents;
 }
+.dropdown-menu-1 {
+    position: absolute; 
+    transform: translate3d(111px, 0px, 0px); 
+    top: 0px; 
+    left: 0px; 
+    will-change: transform;
+}
+
 
 
 .box,.box-1 {
