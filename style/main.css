@@ -4,9 +4,6 @@ body {
 nav {
     font-family: poppins;
 }
-.width-fit-content {
-    width: fit-content;
-}
 .logo {
     width: 60%;
 }
@@ -139,4 +136,7 @@ nav {
     .p-point-seven {
     padding: 0.5rem!important;
     }
+   .width-fit-content {
+    width: fit-content;
+}
 }
