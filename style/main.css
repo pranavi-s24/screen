@@ -131,12 +131,13 @@ nav {
 .box .percent .number h2 {
     font-size: 40px;
 }
-
+@media all and (max-width:800px) {
+    .width-fit-content {
+        width: fit-content;
+}
+}
 @media all and (max-width:400px) {
     .p-point-seven {
     padding: 0.5rem!important;
     }
-   .width-fit-content {
-    width: fit-content;
-}
 }
