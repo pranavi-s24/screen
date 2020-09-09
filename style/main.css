@@ -4,8 +4,8 @@ body {
 .nav {
     font-family: poppins;
 }
-.width-auto {
-    width: auto;
+.width-fit-content {
+    width: fit-content;
 }
 .logo {
     width: 60%;
