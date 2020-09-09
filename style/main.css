@@ -61,6 +61,11 @@ nav {
 .d-contents {
     display: contents;
 }
+.right-10px {
+    position: absolute;
+    right: 10px;
+}
+
 .dropdown-menu-1 {
     position: absolute; 
     transform: translate3d(111px, 0px, 0px); 
