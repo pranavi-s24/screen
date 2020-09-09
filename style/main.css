@@ -71,7 +71,9 @@ nav {
     left: 0px; 
     will-change: transform;
 }
-
+.dropleft .dropdown-toggle::before {
+    content: none;
+}
 
 
 .box,.box-1 {
